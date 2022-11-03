@@ -1,0 +1,15 @@
+{
+	"name": "ruby_starter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@prettier/plugin-ruby": "^3.2.2",
+		"prettier": "^2.7.1"
+	}
+}
