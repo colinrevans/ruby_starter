@@ -1,19 +1,19 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-#gem "rake", "~> 13.0"
+# gem "rake", "~> 13.0"
 
-gem "rubocop", "~> 1.21"
-gem "prettier"
-gem "solargraph"
-gem "rspec", "~> 3.0"
-gem "guard-rspec", require: false
-gem "sorbet", group: :development
-gem "sorbet-runtime"
-gem "tapioca", require: false, group: :development
-gem "yard-sorbet"
-gem "rubocop-sorbet"
+gem 'guard-rspec', require: false
+gem 'prettier'
+gem 'rspec', '~> 3.0'
+gem 'rubocop', '~> 1.21'
+gem 'rubocop-shopify', require: false
+gem 'rubocop-sorbet'
+gem 'solargraph'
+gem 'sorbet', group: :development
+gem 'sorbet-runtime'
+gem 'tapioca', require: false, group: :development
+gem 'yard-sorbet'
 
-gem "byebug", "~> 11.1", :groups => [:development, :test]
-
+gem 'byebug', '~> 11.1', groups: %i[development test]
